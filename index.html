@@ -13,8 +13,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6KX58WNJYX"></script>
-		<!-- Google reCAPTCHA tag -->
-<script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
+		<!-- Google reCAPTCHA tag
+<script src="https://www.google.com/recaptcha/enterprise.js" async defer></script> -->
 
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -119,8 +119,11 @@
 										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" required/></div>
 										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" required/></div>
 										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4" required></textarea></div>
-										<div class="g-recaptcha" data-sitekey="6LfqShUqAAAAAFcB2zMj8UHJBmnNHh_-qFG1_RdA" data-action="LOGIN"></div>
-										<br/>								  
+										<!-- <div class="g-recaptcha" data-sitekey="6LfqShUqAAAAAFcB2zMj8UHJBmnNHh_-qFG1_RdA" data-action="LOGIN"></div>
+										<br/>	 -->
+										<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+										<div class="h-captcha" data-captcha="true"></div>
+										<!-- <div class="h-captcha" data-sitekey="a9a4fb1a-0914-4ed8-9d0e-f9dc65026200"></div> -->
 									</div>
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
@@ -480,6 +483,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://web3forms.com/client/script.js" async defer></script>
+
 
 	</body>
 </html>
