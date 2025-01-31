@@ -2599,10 +2599,14 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/JERSON/NY.JPG"), url("../../images/bg.jpg");
+		background-image: url("../../images/JERSON/WTC.jpg");
+		background-size: cover; /* This will ensure the image covers the entire background */
+		background-repeat: no-repeat; /* This will prevent the image from repeating */
+		background-position: center; /* This will center the image */
+/* 	
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-size: auto,								150%; */
 		color: #000000;		;
 		height: 100%;
 		left: 0;
